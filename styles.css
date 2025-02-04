@@ -1,23 +1,33 @@
-body{
-    background-color: #A1E3F9;
-
+body {
+    min-height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
 }
 .prt1{
-    margin-left: 600px;
-    height: 450px;
+    height: 400px;
     width: 240px;
     margin-top: 150px;
     background-color: white;
     border-radius: 25px;
 }
+.prt2{
+    min-height: 35vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
 img{
     height: 200px;
     width: 200px;
-    margin-left: 20px;
-    margin-top: 10px;
     border-radius: 25px;
 }
 .pest{
-    margin-left: 20px;
-
+    display:ruby-base-container; 
+    justify-content: center;
+    align-items: center; 
+    border: none;
+    background-color: white;
 }
